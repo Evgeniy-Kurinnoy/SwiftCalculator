@@ -7,11 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		12E93A34241297F55A27B6B5 /* Pods_Calculator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC652067117B73A4F85C9B73 /* Pods_Calculator.framework */; };
 		70041A3722B6875700D2182D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70041A3622B6875700D2182D /* AppDelegate.swift */; };
 		70041A3922B6875700D2182D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70041A3822B6875700D2182D /* ViewController.swift */; };
 		70041A3C22B6875700D2182D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70041A3A22B6875700D2182D /* Main.storyboard */; };
 		70041A3E22B6875800D2182D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70041A3D22B6875800D2182D /* Assets.xcassets */; };
 		70041A4122B6875800D2182D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70041A3F22B6875800D2182D /* LaunchScreen.storyboard */; };
+		70041A4922B68B2800D2182D /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70041A4822B68B2800D2182D /* Calculator.swift */; };
+		70041A4B22B793E200D2182D /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70041A4A22B793E200D2182D /* Protocols.swift */; };
+		70041A4D22B7944100D2182D /* Operations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70041A4C22B7944100D2182D /* Operations.swift */; };
+		70041A4F22B7946900D2182D /* Numbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70041A4E22B7946900D2182D /* Numbers.swift */; };
+		70041A5122B794A900D2182D /* ArrayExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70041A5022B794A900D2182D /* ArrayExtensions.swift */; };
+		70041A5322B794C900D2182D /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70041A5222B794C900D2182D /* StringExtensions.swift */; };
+		70041A5522B794EB00D2182D /* ExpressionElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70041A5422B794EB00D2182D /* ExpressionElement.swift */; };
+		70041A5722B7950700D2182D /* Expression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70041A5622B7950700D2182D /* Expression.swift */; };
+		702D72D722B7F8780052FD43 /* DoubleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702D72D622B7F8780052FD43 /* DoubleExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +32,19 @@
 		70041A3D22B6875800D2182D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		70041A4022B6875800D2182D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		70041A4222B6875800D2182D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70041A4822B68B2800D2182D /* Calculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculator.swift; sourceTree = "<group>"; };
+		70041A4A22B793E200D2182D /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
+		70041A4C22B7944100D2182D /* Operations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Operations.swift; sourceTree = "<group>"; };
+		70041A4E22B7946900D2182D /* Numbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Numbers.swift; sourceTree = "<group>"; };
+		70041A5022B794A900D2182D /* ArrayExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayExtensions.swift; sourceTree = "<group>"; };
+		70041A5222B794C900D2182D /* StringExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
+		70041A5422B794EB00D2182D /* ExpressionElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpressionElement.swift; sourceTree = "<group>"; };
+		70041A5622B7950700D2182D /* Expression.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expression.swift; sourceTree = "<group>"; };
+		70041A5822B7BB7400D2182D /* Calculator-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Calculator-Bridging-Header.h"; sourceTree = "<group>"; };
+		702D72D622B7F8780052FD43 /* DoubleExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoubleExtension.swift; sourceTree = "<group>"; };
+		79D3656566F431AB9A2177D0 /* Pods-Calculator.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Calculator.release.xcconfig"; path = "Pods/Target Support Files/Pods-Calculator/Pods-Calculator.release.xcconfig"; sourceTree = "<group>"; };
+		93700A4E4150062ADB4698F1 /* Pods-Calculator.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Calculator.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Calculator/Pods-Calculator.debug.xcconfig"; sourceTree = "<group>"; };
+		AC652067117B73A4F85C9B73 /* Pods_Calculator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Calculator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +52,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12E93A34241297F55A27B6B5 /* Pods_Calculator.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +64,8 @@
 			children = (
 				70041A3522B6875700D2182D /* Calculator */,
 				70041A3422B6875700D2182D /* Products */,
+				D639CD2259C7D493434708C1 /* Pods */,
+				DD757EB52BA974891AB8968A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,8 +86,35 @@
 				70041A3D22B6875800D2182D /* Assets.xcassets */,
 				70041A3F22B6875800D2182D /* LaunchScreen.storyboard */,
 				70041A4222B6875800D2182D /* Info.plist */,
+				70041A4822B68B2800D2182D /* Calculator.swift */,
+				70041A4A22B793E200D2182D /* Protocols.swift */,
+				70041A4C22B7944100D2182D /* Operations.swift */,
+				70041A4E22B7946900D2182D /* Numbers.swift */,
+				70041A5022B794A900D2182D /* ArrayExtensions.swift */,
+				70041A5222B794C900D2182D /* StringExtensions.swift */,
+				70041A5422B794EB00D2182D /* ExpressionElement.swift */,
+				70041A5622B7950700D2182D /* Expression.swift */,
+				70041A5822B7BB7400D2182D /* Calculator-Bridging-Header.h */,
+				702D72D622B7F8780052FD43 /* DoubleExtension.swift */,
 			);
 			path = Calculator;
+			sourceTree = "<group>";
+		};
+		D639CD2259C7D493434708C1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				93700A4E4150062ADB4698F1 /* Pods-Calculator.debug.xcconfig */,
+				79D3656566F431AB9A2177D0 /* Pods-Calculator.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DD757EB52BA974891AB8968A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AC652067117B73A4F85C9B73 /* Pods_Calculator.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +124,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 70041A4522B6875800D2182D /* Build configuration list for PBXNativeTarget "Calculator" */;
 			buildPhases = (
+				950DDA21F7A54387238AA099 /* [CP] Check Pods Manifest.lock */,
 				70041A2F22B6875700D2182D /* Sources */,
 				70041A3022B6875700D2182D /* Frameworks */,
 				70041A3122B6875700D2182D /* Resources */,
+				EF28DDDCEC8DF011CBD6E3A4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -96,6 +151,7 @@
 				TargetAttributes = {
 					70041A3222B6875700D2182D = {
 						CreatedOnToolsVersion = 10.2.1;
+						LastSwiftMigration = 1020;
 					};
 				};
 			};
@@ -130,13 +186,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		950DDA21F7A54387238AA099 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Calculator-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF28DDDCEC8DF011CBD6E3A4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Calculator/Pods-Calculator-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxRelay/RxRelay.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxRelay.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Calculator/Pods-Calculator-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		70041A2F22B6875700D2182D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70041A5322B794C900D2182D /* StringExtensions.swift in Sources */,
+				70041A5522B794EB00D2182D /* ExpressionElement.swift in Sources */,
 				70041A3922B6875700D2182D /* ViewController.swift in Sources */,
+				702D72D722B7F8780052FD43 /* DoubleExtension.swift in Sources */,
 				70041A3722B6875700D2182D /* AppDelegate.swift in Sources */,
+				70041A5122B794A900D2182D /* ArrayExtensions.swift in Sources */,
+				70041A4F22B7946900D2182D /* Numbers.swift in Sources */,
+				70041A4922B68B2800D2182D /* Calculator.swift in Sources */,
+				70041A4B22B793E200D2182D /* Protocols.swift in Sources */,
+				70041A4D22B7944100D2182D /* Operations.swift in Sources */,
+				70041A5722B7950700D2182D /* Expression.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,8 +388,10 @@
 		};
 		70041A4622B6875800D2182D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93700A4E4150062ADB4698F1 /* Pods-Calculator.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = V4H57M2V7C;
 				INFOPLIST_FILE = Calculator/Info.plist;
@@ -291,6 +401,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.evgeniy.kurinnoy.Calculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Calculator/Calculator-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -298,8 +410,10 @@
 		};
 		70041A4722B6875800D2182D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79D3656566F431AB9A2177D0 /* Pods-Calculator.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = V4H57M2V7C;
 				INFOPLIST_FILE = Calculator/Info.plist;
@@ -309,6 +423,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.evgeniy.kurinnoy.Calculator;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Calculator/Calculator-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
